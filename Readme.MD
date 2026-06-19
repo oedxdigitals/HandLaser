@@ -13,7 +13,7 @@ IP Webcam usage
 
 ---
 
-📡 Hand Laser Prism (MediaPipe + OpenCV)
+📡 HandLaser (MediaPipe + OpenCV)
 
 A real-time computer vision project that detects hands using MediaPipe and renders a neon laser prism effect between both hands using OpenCV.
 
