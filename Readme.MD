@@ -123,9 +123,13 @@ http://192.168.3.10:8080/video
 📁 Project Files
 
 main.py           #Main Laser prism (windows, Linux)
+
 maincam.py          # Main laser prism (Android device)
+
 cam-test.py      # Camera test script
+
 preview.py       # Optional Flask preview server
+
 README.md        # Documentation
 
 
