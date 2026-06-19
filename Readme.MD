@@ -122,7 +122,7 @@ http://192.168.3.10:8080/video
 
 📁 Project Files
 
-main.py          # Main laser prism application
+maincam.py          # Main laser prism application
 cam-test.py      # Camera test script
 preview.py       # Optional Flask preview server
 README.md        # Documentation
@@ -134,9 +134,9 @@ README.md        # Documentation
 
 🐧 Linux / RNX
 
-Run main project:
+Run maincam project:
 
-python3 main.py
+python3 maincam.py
 
 Run camera test:
 
@@ -147,7 +147,7 @@ python3 cam-test.py
 
 🪟 Windows
 
-python main.py
+python maincam.py
 
 
 ---
@@ -163,7 +163,7 @@ Output saved as MP4
 
 Run:
 
-python3 main.py
+python3 maincam.py
 
 Then check:
 
@@ -174,7 +174,7 @@ hand_laser_output.mp4
 
 📱 Using IP Webcam (Required for RNX / Android Linux)
 
-Edit inside main.py:
+Edit inside maincam.py:
 
 IP_CAM_URL = "http://192.168.3.10:8080/video"
 
